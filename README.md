@@ -1,4 +1,4 @@
-CSS-Selectors-and-Responsive
+CSS-Transforms-and-Transitions
 Epam training course
 
 
