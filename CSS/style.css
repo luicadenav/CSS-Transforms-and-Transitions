@@ -1,0 +1,284 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* first section of web page  */
+
+.navbar{
+    display: flex;
+    margin-left:12% ;
+    padding-top: 5%;
+  
+}
+
+.logo-container a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.2em;
+    font-size: 20px;
+}
+
+.navbar-ul{
+    display: flex;
+    list-style: none;
+    margin-left: 12%;
+    width: 100%; 
+}
+
+.navbar-ul li{
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar ul a  {
+    color: white;
+    font-weight: 400;
+    margin-right:32px ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+}
+
+.firstSection {
+max-width: 1200px;
+background:url(/assets/Desktop_Backgrounds_1920x1200_6\ 3.png);
+background-repeat: no-repeat;
+margin: 0 auto;
+
+}
+
+.firstSection-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;;
+    margin: 0 auto;
+    padding: 12% 0 16%;
+    min-height: 678px;
+   justify-content: center;
+}
+
+
+.firstSection-content img {
+    width: fit-content;
+    margin:  0 auto;
+}
+
+
+.firstSection-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 16px;
+    color: white;
+}
+
+.firstSection-content h2 {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    
+}
+
+
+/* second section of web page  */
+
+.secondSection{
+    background-color: rgba(238, 238, 238, 1);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20 0;
+}
+
+.secondSection h2, .thirdSection h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(70, 69, 71, 1);
+    padding-top: 5%;
+    margin-bottom: 40px;
+    font-family: 'Oswald', sans-serif;
+    width: 80%;
+    
+    
+}
+.secondSection h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color:rgba(102, 102, 102, 1);
+    margin-bottom: 40px;
+    
+}
+
+.texts{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.secondSection p {
+    width: 45%;
+    color: rgba(102, 102, 102, 1);
+}
+
+
+
+.secondSection button{
+    display: block;
+    width: 115px;
+    height: 34.87px;
+    margin: 40px auto;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 1);
+    background-color: #55C2D8;
+    border: 2px solid #55C2D8 ;
+    border-radius: 50px;
+}
+
+/* third section of web page  */
+
+
+.thirdSection {
+    background-image: linear-gradient( 115deg, rgba(140, 79, 42, 0.3), rgba(140, 79, 42, 0.3) ), url(../assets/IMG_1334_72dpi_RGB_\ 1.png);
+    margin: 0 auto;
+    height: 666px;
+    max-width: 1200px;
+
+}
+
+.thirdSection h2 {
+    color: rgba(238, 238, 238, 1);
+}
+
+.thirdSection button {
+    display: block;
+    font-size: 80px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 40px auto;
+    color: rgba(255, 255, 255, 1);
+    background-color: #55C2D8;
+    border: 2px solid #55C2D8 ;
+    border-radius: 50%; 
+
+}
+
+span{
+    display: inline-block;
+    width: 18px;
+}
+
+.thirdSection p  {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom: 40px; 
+}
+
+
+
+/* footer */
+
+footer{
+    max-width: 1200px;
+    background-color: rgba(70, 69, 71, 1);
+    margin: 0 auto;
+
+    
+}
+
+footer img  {
+width: 120px;
+height: 18px;
+ 
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.4);
+    margin-top: 20px;
+}
+
+.footer-content{
+    color:rgba(255, 255, 255, 0.4);
+    width: 80%;
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.footer-Rigth {
+    padding:  5% 0 10% 0;
+}
+
+
+@media only screen and (max-width:768px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .firstSection-content {
+        width: 80%;
+    }
+
+    .texts{
+        display: block;
+        text-align: left;
+    }
+
+    .secondSection p {
+        width: 100%;
+    }
+
+    .footer-content{
+        display: block;
+        text-align: center;
+    }
+
+    .footer-center{
+        margin-top: 5%;
+    } 
+}
+
+
+@media only screen and (min-width:768px) {
+    .lines {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
